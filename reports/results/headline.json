@@ -1,0 +1,54 @@
+{
+  "simulation": {
+    "buyers": 900,
+    "order_lines": 129207,
+    "buyer_weeks": 34739,
+    "weeks": 166,
+    "date_start": "2023-01-03",
+    "date_end": "2026-03-03",
+    "gmv_lkr_m": 1568.5,
+    "revenue_lkr_m": 219.6,
+    "mean_fill_rate": 0.9489,
+    "short_ship_pct": 13.2
+  },
+  "retention": {
+    "month_1": 0.825,
+    "month_3": 0.667,
+    "month_6": 0.515,
+    "month_12": 0.331
+  },
+  "churn_model": {
+    "n_test": 14462,
+    "base_rate": 0.06817867514866546,
+    "roc_auc": 0.7421863193645438,
+    "pr_auc": 0.23886419565921532,
+    "pr_auc_lift": 3.5035030401861786,
+    "brier": 0.05863252963404442,
+    "top_decile_precision": 0.24481327800829875,
+    "top_decile_lift": 3.590760270340788
+  },
+  "churn_threshold": {
+    "threshold": 0.09,
+    "net_value_lkr": 13078664.0,
+    "precision": 0.166,
+    "recall": 0.619,
+    "n_contacted": 3681
+  },
+  "causal": {
+    "ground_truth_att": 0.0259,
+    "naive_att": 0.1851,
+    "naive_overstatement_x": 7.2,
+    "psm_att": 0.0326,
+    "aipw_att": 0.0283,
+    "aipw_abs_error": 0.0024,
+    "aipw_covers_truth": true,
+    "n_treated": 1471
+  },
+  "cuped": {
+    "theta": 0.458325386638233,
+    "rho": 0.6493810803135865,
+    "variance_reduction_pct": 42.16957874692406,
+    "effective_n_multiplier": 1.7291936982852447
+  },
+  "base_churn_8w": 0.076
+}

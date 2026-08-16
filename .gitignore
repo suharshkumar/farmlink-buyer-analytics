@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data is fetched at runtime from public sources - never committed.
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+reports/figures/*.png
+!reports/figures/.gitkeep
