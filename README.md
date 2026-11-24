@@ -5,16 +5,17 @@ question it's built around is one a product roadmap actually turns on: when we
 short-ship a buyer, how much does that really cost us in churn, and is it worth
 building supply guarantees to stop it?
 
-Built during a Data Analyst internship at [FarmLink](https://www.farmlink.lk/),
-an IIT Madras-incubated agri supply-chain startup running a farmer-to-buyer
-platform across Sri Lanka.
+Built during a Data Analyst internship at FarmLink, an IIT Madras-incubated
+Indian agri supply-chain startup. My scope was the analysis pipeline and the
+models; the team runs them on FarmLink's internal data.
 
 FarmLink's buyer ledger is confidential and no public dataset describes B2B
-agricultural purchasing in South Asia, so the order book here is simulated. It's
-driven by real market data though: demand, fill rates and churn all respond to
-the genuine 2016-2026 Sri Lankan wholesale price series from Central Bank daily
-reports, so the ledger inherits real seasonality, real volatility clustering and
-the real 2022 supply crisis.
+agricultural purchasing, so the order book here is simulated. It's driven by
+real market data though: demand, fill rates and churn all respond to a genuine
+2016-2026 daily wholesale vegetable price series (Central Bank of Sri Lanka
+daily reports, the same public dataset used in the companion pricing repo), so
+the ledger inherits real seasonality, real volatility clustering and a real
+supply crisis.
 
 ---
 
